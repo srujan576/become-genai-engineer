@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gen AI Engineer Roadmap - Master AI in 12 Months</title>
+    <link rel="stylesheet" href="style_new.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="neon-particles" id="particlesCanvas"></div>
+    
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">⚡</span>
+                <span class="logo-text">AI Roadmap</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#roadmap">Roadmap</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#career">Career</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle">☰</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="typing-effect">Become a Generative AI Engineer</span>
+            </h1>
+            <p class="hero-subtitle">Master the future of AI in just 12 months. From zero to job-ready.</p>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-count="1200">0</span>
+                    <span class="stat-label">Students Trained</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="95">0</span>
+                    <span class="stat-label">% Success Rate</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="12">0</span>
+                    <span class="stat-label">Months to Master</span>
+                </div>
+            </div>
+            <div class="hero-buttons">
+                <button class="btn btn-primary glow-btn" onclick="document.getElementById('roadmap').scrollIntoView({behavior: 'smooth'})">
+                    Start Your Journey
+                </button>
+                <button class="btn btn-secondary" onclick="document.getElementById('faq').scrollIntoView({behavior: 'smooth'})">
+                    Learn More
+                </button>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="floating-card card-1">
+                <span class="card-icon">🤖</span>
+                <p>AI Models</p>
+            </div>
+            <div class="floating-card card-2">
+                <span class="card-icon">⚙️</span>
+                <p>Tools</p>
+            </div>
+            <div class="floating-card card-3">
+                <span class="card-icon">📊</span>
+                <p>Data</p>
+            </div>
+            <div class="hero-gradient-orb"></div>
+        </div>
+    </section>
+
+    <!-- Quick Stats Section -->
+    <section class="quick-stats">
+        <div class="stats-container">
+            <div class="stat-card">
+                <h3>13 Topics</h3>
+                <p>Comprehensive curriculum</p>
+            </div>
+            <div class="stat-card">
+                <h3>100+ Resources</h3>
+                <p>Free learning materials</p>
+            </div>
+            <div class="stat-card">
+                <h3>12 Projects</h3>
+                <p>Build portfolio work</p>
+            </div>
+            <div class="stat-card">
+                <h3>24/7 Support</h3>
+                <p>Community & guidance</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Roadmap Timeline -->
+    <section id="roadmap" class="roadmap-section">
+        <div class="section-header">
+            <h2 class="section-title">12-Month Learning Roadmap</h2>
+            <p class="section-subtitle">Follow this path to become a Gen AI Engineer</p>
+        </div>
+
+        <div class="roadmap-timeline">
+            <!-- Month 1-2 -->
+            <div class="timeline-item" data-month="1-2">
+                <div class="timeline-marker">
+                    <span class="month-badge">Month 1-2</span>
+                </div>
+                <div class="timeline-content">
+                    <h3>Python & AI Foundations</h3>
+                    <p class="duration">⏱️ 2 months</p>
+                    <div class="topics">
+                        <span class="topic-tag">Python Basics</span>
+                        <span class="topic-tag">NumPy & Pandas</span>
+                        <span class="topic-tag">Data Structures</span>
+                        <span class="topic-tag">Linux/Command Line</span>
+                    </div>
+                    <div class="resources">
+                        <p><strong>What to build:</strong> Data analysis projects</p>
+                        <p><strong>Free Resources:</strong> Codecademy, DataCamp</p>
+                        <p><strong>Daily Routine:</strong> 2-3 hours</p>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 0%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Month 3-4 -->
+            <div class="timeline-item" data-month="3-4">
+                <div class="timeline-marker">
+                    <span class="month-badge">Month 3-4</span>
+                </div>
+                <div class="timeline-content">
+                    <h3>Prompt Engineering & APIs</h3>
+                    <p class="duration">⏱️ 2 months</p>
+                    <div class="topics">
+                        <span class="topic-tag">Prompt Engineering</span>
+                        <span class="topic-tag">OpenAI API</span>
+                        <span class="topic-tag">API Integration</span>
+                        <span class="topic-tag">Web Basics</span>
+                    </div>
+                    <div class="resources">
+                        <p><strong>What to build:</strong> ChatGPT wrapper</p>
+                        <p><strong>Free Resources:</strong> OpenAI Docs</p>
+                        <p><strong>Daily Routine:</strong> 5 hours</p>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 0%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Month 5-6 -->
+            <div class="timeline-item" data-month="5-6">
+                <div class="timeline-marker">
+                    <span class="month-badge">Month 5-6</span>
+                </div>
+                <div class="timeline-content">
+                    <h3>ML Basics for Gen AI</h3>
+                    <p class="duration">⏱️ 2 months</p>
+                    <div class="topics">
+                        <span class="topic-tag">Machine Learning</span>
+                        <span class="topic-tag">Neural Networks</span>
+                        <span class="topic-tag">Scikit-learn</span>
+                        <span class="topic-tag">TensorFlow</span>
+                    </div>
+                    <div class="resources">
+                        <p><strong>What to build:</strong> ML models</p>
+                        <p><strong>Free Resources:</strong> Coursera</p>
+                        <p><strong>Daily Routine:</strong> 5 hours</p>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 0%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Month 7-8 -->
+            <div class="timeline-item" data-month="7-8">
+                <div class="timeline-marker">
+                    <span class="month-badge">Month 7-8</span>
+                </div>
+                <div class="timeline-content">
+                    <h3>LLMs & Transformers</h3>
+                    <p class="duration">⏱️ 2 months</p>
+                    <div class="topics">
+                        <span class="topic-tag">Transformers</span>
+                        <span class="topic-tag">LLM Architecture</span>
+                        <span class="topic-tag">Hugging Face</span>
+                        <span class="topic-tag">Fine-tuning</span>
+                    </div>
+                    <div class="resources">
+                        <p><strong>What to build:</strong> LLM applications</p>
+                        <p><strong>Free Resources:</strong> HF courses</p>
+                        <p><strong>Daily Routine:</strong> 6 hours</p>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 0%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Month 9-10 -->
+            <div class="timeline-item" data-month="9-10">
+                <div class="timeline-marker">
+                    <span class="month-badge">Month 9-10</span>
+                </div>
+                <div class="timeline-content">
+                    <h3>RAG, Vector DBs & LangChain</h3>
+                    <p class="duration">⏱️ 2 months</p>
+                    <div class="topics">
+                        <span class="topic-tag">Vector Databases</span>
+                        <span class="topic-tag">RAG Systems</span>
+                        <span class="topic-tag">LangChain</span>
+                        <span class="topic-tag">Embeddings</span>
+                    </div>
+                    <div class="resources">
+                        <p><strong>What to build:</strong> RAG apps</p>
+                        <p><strong>Free Resources:</strong> Docs</p>
+                        <p><strong>Daily Routine:</strong> 6 hours</p>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 0%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Month 11 -->
+            <div class="timeline-item" data-month="11">
+                <div class="timeline-marker">
+                    <span class="month-badge">Month 11</span>
+                </div>
+                <div class="timeline-content">
+                    <h3>AI Agents & Deployment</h3>
+                    <p class="duration">⏱️ 1 month</p>
+                    <div class="topics">
+                        <span class="topic-tag">AI Agents</span>
+                        <span class="topic-tag">Deployment</span>
+                        <span class="topic-tag">Docker</span>
+                        <span class="topic-tag">Cloud</span>
+                    </div>
+                    <div class="resources">
+                        <p><strong>What to build:</strong> Agents</p>
+                        <p><strong>Free Resources:</strong> AWS</p>
+                        <p><strong>Daily Routine:</strong> 7 hours</p>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 0%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Month 12 -->
+            <div class="timeline-item" data-month="12">
+                <div class="timeline-marker">
+                    <span class="month-badge">Month 12</span>
+                </div>
+                <div class="timeline-content">
+                    <h3>Projects, Portfolio & Interviews</h3>
+                    <p class="duration">⏱️ 1 month</p>
+                    <div class="topics">
+                        <span class="topic-tag">Portfolio</span>
+                        <span class="topic-tag">Interview Prep</span>
+                        <span class="topic-tag">Resume</span>
+                        <span class="topic-tag">Networking</span>
+                    </div>
+                    <div class="resources">
+                        <p><strong>What to build:</strong> 3-4 projects</p>
+                        <p><strong>Free Resources:</strong> LeetCode</p>
+                        <p><strong>Daily Routine:</strong> 5 hours</p>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 0%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="roadmap-path"></div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="section-header">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <p class="section-subtitle">Master these to become a Gen AI Engineer</p>
+        </div>
+
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-icon">🐍</div>
+                <h3>Python</h3>
+                <p>Core language for AI. NumPy, Pandas, Scikit-learn mastery.</p>
+                <div class="skill-progress">
+                    <div class="progress-bar"><div class="progress-fill" style="width: 95%"></div></div>
+                    <span class="progress-text">Advanced</span>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">💬</div>
+                <h3>Prompt Engineering</h3>
+                <p>Art of asking AI the right questions.</p>
+                <div class="skill-progress">
+                    <div class="progress-bar"><div class="progress-fill" style="width: 100%"></div></div>
+                    <span class="progress-text">Critical</span>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">🤖</div>
+                <h3>LLMs & Transformers</h3>
+                <p>Large language models and transformer architecture.</p>
+                <div class="skill-progress">
+                    <div class="progress-bar"><div class="progress-fill" style="width: 90%"></div></div>
+                    <span class="progress-text">Advanced</span>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">🔗</div>
+                <h3>LangChain</h3>
+                <p>Framework for LLM applications.</p>
+                <div class="skill-progress">
+                    <div class="progress-bar"><div class="progress-fill" style="width: 85%"></div></div>
+                    <span class="progress-text">Advanced</span>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">📊</div>
+                <h3>Vector Databases</h3>
+                <p>Pinecone, Weaviate, Milvus expertise.</p>
+                <div class="skill-progress">
+                    <div class="progress-bar"><div class="progress-fill" style="width: 80%"></div></div>
+                    <span class="progress-text">Intermediate</span>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">🎯</div>
+                <h3>RAG Systems</h3>
+                <p>Retrieval Augmented Generation.</p>
+                <div class="skill-progress">
+                    <div class="progress-bar"><div class="progress-fill" style="width: 85%"></div></div>
+                    <span class="progress-text">Advanced</span>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">🧠</div>
+                <h3>API Integration</h3>
+                <p>OpenAI, HuggingFace, Anthropic APIs.</p>
+                <div class="skill-progress">
+                    <div class="progress-bar"><div class="progress-fill" style="width: 90%"></div></div>
+                    <span class="progress-text">Advanced</span>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">⚙️</div>
+                <h3>Deployment & DevOps</h3>
+                <p>Docker, AWS, GCP deployment.</p>
+                <div class="skill-progress">
+                    <div class="progress-bar"><div class="progress-fill" style="width: 75%"></div></div>
+                    <span class="progress-text">Intermediate</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="section-header">
+            <h2 class="section-title">Real-World Projects to Build</h2>
+            <p class="section-subtitle">Portfolio projects that impress companies</p>
+        </div>
+
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-badge">Month 2-3</div>
+                <h3>Chat with Your PDF</h3>
+                <p>RAG application for PDF Q&A using LLMs and vector databases.</p>
+                <div class="project-skills">
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">RAG</span>
+                    <span class="skill-tag">OpenAI</span>
+                    <span class="skill-tag">Pinecone</span>
+                </div>
+                <a href="#" class="project-link">View Demo →</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-badge">Month 4-5</div>
+                <h3>AI Resume Analyzer</h3>
+                <p>AI-powered resume analysis and improvement suggestions.</p>
+                <div class="project-skills">
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">LangChain</span>
+                    <span class="skill-tag">Claude API</span>
+                    <span class="skill-tag">Web</span>
+                </div>
+                <a href="#" class="project-link">View Demo →</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-badge">Month 6-7</div>
+                <h3>Fine-tuned Sentiment Analysis</h3>
+                <p>Fine-tune transformers for domain-specific sentiment.</p>
+                <div class="project-skills">
+                    <span class="skill-tag">Hugging Face</span>
+                    <span class="skill-tag">Fine-tuning</span>
+                    <span class="skill-tag">Transformers</span>
+                    <span class="skill-tag">NLP</span>
+                </div>
+                <a href="#" class="project-link">View Demo →</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-badge">Month 8-9</div>
+                <h3>AI Agent - Personal Assistant</h3>
+                <p>Autonomous AI agent with web browsing and task execution.</p>
+                <div class="project-skills">
+                    <span class="skill-tag">AI Agents</span>
+                    <span class="skill-tag">Tool Use</span>
+                    <span class="skill-tag">Memory</span>
+                    <span class="skill-tag">Chains</span>
+                </div>
+                <a href="#" class="project-link">View Demo →</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-badge">Month 10-11</div>
+                <h3>Multi-Modal AI Application</h3>
+                <p>Text, image, and audio processing with LLMs.</p>
+                <div class="project-skills">
+                    <span class="skill-tag">Vision APIs</span>
+                    <span class="skill-tag">Audio ML</span>
+                    <span class="skill-tag">Multimodal</span>
+                    <span class="skill-tag">Integration</span>
+                </div>
+                <a href="#" class="project-link">View Demo →</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-badge">Month 11-12</div>
+                <h3>Production AI SaaS App</h3>
+                <p>Full-stack AI app with auth, payments, and scaling.</p>
+                <div class="project-skills">
+                    <span class="skill-tag">Deployment</span>
+                    <span class="skill-tag">DevOps</span>
+                    <span class="skill-tag">Full-Stack</span>
+                    <span class="skill-tag">AWS/GCP</span>
+                </div>
+                <a href="#" class="project-link">View Demo →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Career Section -->
+    <section id="career" class="career-section">
+        <div class="section-header">
+            <h2 class="section-title">Career Opportunities</h2>
+            <p class="section-subtitle">Job roles and salary expectations</p>
+        </div>
+
+        <div class="career-grid">
+            <div class="career-card">
+                <h3>AI/ML Engineer</h3>
+                <p class="role-salary">💰 $120k - $160k/year</p>
+                <p class="role-desc">Build and optimize AI models, ML pipelines, deployment.</p>
+                <div class="role-requirements">
+                    <p><strong>Skills:</strong> Python, ML frameworks, DevOps</p>
+                </div>
+            </div>
+
+            <div class="career-card">
+                <h3>LLM Engineer</h3>
+                <p class="role-salary">💰 $130k - $180k/year</p>
+                <p class="role-desc">LLMs, prompt engineering, RAG systems, applications.</p>
+                <div class="role-requirements">
+                    <p><strong>Skills:</strong> LLMs, Prompting, RAG, APIs</p>
+                </div>
+            </div>
+
+            <div class="career-card">
+                <h3>AI Product Engineer</h3>
+                <p class="role-salary">💰 $115k - $155k/year</p>
+                <p class="role-desc">AI features in products, user experience focus.</p>
+                <div class="role-requirements">
+                    <p><strong>Skills:</strong> Full-stack, AI/ML, Product sense</p>
+                </div>
+            </div>
+
+            <div class="career-card">
+                <h3>Prompt Engineer</h3>
+                <p class="role-salary">💰 $100k - $140k/year</p>
+                <p class="role-desc">Optimize prompts, A/B testing, LLM outputs.</p>
+                <div class="role-requirements">
+                    <p><strong>Skills:</strong> Prompting, Testing, Analytics</p>
+                </div>
+            </div>
+
+            <div class="career-card">
+                <h3>AI Research Engineer</h3>
+                <p class="role-salary">💰 $140k - $200k/year</p>
+                <p class="role-desc">Cutting-edge AI research at FAANG/AI labs.</p>
+                <div class="role-requirements">
+                    <p><strong>Skills:</strong> Deep ML, Research, Papers</p>
+                </div>
+            </div>
+
+            <div class="career-card">
+                <h3>Data Scientist (AI)</h3>
+                <p class="role-salary">💰 $110k - $160k/year</p>
+                <p class="role-desc">Data analysis, AI in business contexts.</p>
+                <div class="role-requirements">
+                    <p><strong>Skills:</strong> Analytics, ML, SQL, Stats</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Common Mistakes Section -->
+    <section class="mistakes-section">
+        <div class="section-header">
+            <h2 class="section-title">Common Mistakes to Avoid</h2>
+        </div>
+
+        <div class="mistakes-grid">
+            <div class="mistake-card danger">
+                <h3>❌ Only Watching Tutorials</h3>
+                <p>Learn by doing, not just watching. Code along every time.</p>
+            </div>
+            <div class="mistake-card danger">
+                <h3>❌ Skipping Python Fundamentals</h3>
+                <p>Strong Python saves months later. Don't rush to LLMs.</p>
+            </div>
+            <div class="mistake-card danger">
+                <h3>❌ Not Building Projects</h3>
+                <p>Build 3-4 solid projects. Theory alone won't land a job.</p>
+            </div>
+            <div class="mistake-card danger">
+                <h3>❌ Ignoring Prompt Engineering</h3>
+                <p>Highest ROI skill. Master it early, applies everywhere.</p>
+            </div>
+            <div class="mistake-card warning">
+                <h3>⚠️ Following One Path Only</h3>
+                <p>Use multiple resources and perspectives.</p>
+            </div>
+            <div class="mistake-card warning">
+                <h3>⚠️ Not Networking</h3>
+                <p>Network is your net worth. Engage on Twitter, LinkedIn, Discord.</p>
+            </div>
+            <div class="mistake-card warning">
+                <h3>⚠️ Waiting for Perfection</h3>
+                <p>Ship imperfect projects and iterate.</p>
+            </div>
+            <div class="mistake-card warning">
+                <h3>⚠️ Not Documenting Learning</h3>
+                <p>Write blogs, share code, build credibility.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq-section">
+        <div class="section-header">
+            <h2 class="section-title">FAQ</h2>
+        </div>
+
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    <h3>Do I need a CS degree?</h3>
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>No! Many successful AI engineers are self-taught. Focus on skills, portfolio, and problem-solving.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    <h3>Is 12 months enough to get a job?</h3>
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes! With 5-6 hours daily, strong projects, and networking, you can land a junior role.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    <h3>Which language first?</h3>
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Python is industry standard. Best libraries and easiest to learn for AI/ML.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    <h3>Need Math and Statistics?</h3>
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Basic understanding helps but not essential. Focus on implementation first.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    <h3>Most important skill?</h3>
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Prompt engineering! Highest ROI skill. Applies to almost every AI role.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    <h3>How to build impressive portfolio?</h3>
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Build 3-4 real-world projects. Document on GitHub. Quality over quantity. Show problem-solving.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    <h3>Where to find jobs?</h3>
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>LinkedIn, Wellfound, company websites, Twitter. Most jobs via referrals - network!</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    <h3>Salary expectations?</h3>
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Junior: $100-130k. Mid: $130-160k. Senior: $160k+. FAANG pays most.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta">
+        <div class="cta-content">
+            <h2>Ready to Start Your AI Journey?</h2>
+            <p>Transform to job-ready Gen AI Engineer in 12 months.</p>
+            <div class="cta-buttons">
+                <button class="btn btn-primary glow-btn btn-lg">Get Started Today</button>
+                <button class="btn btn-secondary btn-lg">View on GitHub</button>
+            </div>
+            <p class="cta-subtext">Join hundreds transforming careers in AI</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Gen AI Roadmap</h4>
+                <p>Your guide to becoming a Gen AI Engineer in 12 months.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="#">Learning Path</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Community</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#">Twitter</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">GitHub</a>
+                    <a href="#">Discord</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Gen AI Roadmap. Built with ❤️ for AI Engineers.</p>
+        </div>
+    </footer>
+
+    <script src="script_new.js"></script>
+</body>
+</html>
